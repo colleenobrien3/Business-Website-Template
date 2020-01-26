@@ -1,0 +1,163 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	color: rgb(191, 191, 191);
+}
+main {
+	
+}
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	padding: 20px;
+	margin-top: 1%;
+	width: 50%
+}
+#intdes {
+	text-transform: uppercase;
+	margin-left: 80px;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+}
+#contact {
+	margin-right: 10%;
+	padding: 20px;
+	margin-top: 1.6%;
+}
+.options {
+	display: flex;
+	justify-content: space-between;
+	margin: 10% auto;
+	width: 80%;
+	border: solid;
+	border-left: 0;
+	border-right: 0;
+	border-color: rgb(207 207 207);
+	border-width: thin;
+	padding: 10% 0;
+	height: 550px;
+	padding-bottom: 10px;
+}
+span {
+}
+.places {
+	width: 60%;
+	margin: 2%;
+	height: 400px;
+}
+
+#pic {
+	height: 700px;
+	width: 100%;
+	background-image: url("./images/largepic.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.8% 0 2%;
+	padding: 0;
+	
+}
+#p2 {
+	background-image: url(./images/options1@2x.png);
+	background-size: cover;
+}
+#p3 {
+	background-image: url(./images/pic3@2x.png);
+	background-size: cover;
+}
+#p4 {
+	background-image: url(./images/pic4@2x.png);
+	background-size: cover;
+}
+.smallpic {
+	background-size: cover;
+	height: 50%;
+	width: 100%;
+}
+
+.final {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 2fr 1fr 1fr;
+	width: 80%;
+	margin: 6% auto;
+	height: 570px;
+	grid-gap: 20px;
+}
+
+#p5 {
+	grid-row: 1 / span 2;
+	background-image: url(./images/p5@2x.png);
+	background-size: cover;
+}
+
+#p6 {
+	background-image: url(./images/p6@2x.png);
+	background-size: cover;
+
+}
+#p7 {
+	background-image: url(./images/p7@2x.png);
+	background-size: cover;
+}
+#p8 {
+	background-image: url(./images/p8@2x.png);
+	background-size: cover;
+}
+#p9 {
+	background-image: url(./images/p9@2x.png);
+	background-size: cover;
+}
+.finalpics {
+
+}
+button {
+	padding: 3% 9%;
+	text-transform: uppercase;
+	border: solid;
+	border-radius: 5px;
+	border-width: thin;
+}
+#instagram p {
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+.footer {
+	background-image: url(./images/footer.png);
+	background-size: cover;
+	height: 20px;
+	width: 150px;
+	margin: 4% auto 4%;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 12px;
+}
+p {
+	color: rgb(166, 166, 166);
+	line-height: 20px;
+	font-size: 14px;
+}
+hr {
+	color: rgb(245, 245, 245);
+}
+@media screen and (max-width: 576px) {
+	.options {
+		display: flex;
+		flex-direction: column;
+	}
+	.places {
+		width: 100%;
+	}
+}
+
+
+
