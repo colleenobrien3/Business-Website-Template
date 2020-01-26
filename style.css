@@ -31,7 +31,7 @@ body {
 .options {
 	display: flex;
 	justify-content: space-between;
-	margin: 10% auto;
+	margin: -80px auto;
 	width: 80%;
 	border: solid;
 	border-left: 0;
@@ -84,7 +84,7 @@ span {
 	grid-template-columns: 2fr 1fr 1fr;
 	width: 80%;
 	margin: 6% auto;
-	height: 570px;
+	height: 70vh;
 	grid-gap: 20px;
 }
 
@@ -149,13 +149,70 @@ p {
 hr {
 	color: rgb(245, 245, 245);
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1100px) {
 	.options {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+		margin-bottom: 900px;
+		align-items: center;
+		margin-top: -300px;
 	}
 	.places {
-		width: 100%;
+		width: 40%;
+		align-items: center;
+		height: 90vh;
+		margin: -10px;
+	}
+}
+@media screen and (max-width: 760px) {
+	.places {
+		height: 80vh;
+	}
+}
+@media screen and (max-width: 700px) {
+	.places {
+		height: 63vh;
+	}
+}
+/*@media screen and (max-width: 1400px) {
+	.final {
+		display: flex;
+		flex-direction: column;
+	}
+	.finalpics {
+		width: 80vh;
+		height: 400px;
+	}
+}*/
+@media screen and (max-width: 1200px) {
+	.final {
+		height: 62vh;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.final {
+		height: 54vh;
+	}
+}
+@media screen and (max-width: 940px) {
+	.final {
+		height: 49vh;
+	}
+}
+@media screen and (max-width: 840px) {
+	.final {
+		height: 40vh;
+	}
+}
+@media screen and (max-width: 740px) {
+	.final {
+		height: 38vh;
+	}
+}
+@media screen and (max-width: 640px) {
+	.final {
+		height: 32vh;
 	}
 }
 
