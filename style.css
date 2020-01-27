@@ -157,6 +157,7 @@ hr {
 		margin-bottom: 900px;
 		align-items: center;
 		margin-top: -300px;
+		border: none;
 	}
 	.places {
 		width: 40%;
@@ -165,6 +166,19 @@ hr {
 		margin: -10px;
 	}
 }
+@media screen and (max-width: 1140px) {
+	#intdes {
+		margin-left: 2%;
+	}
+	.nav {
+		padding: 1%;
+		margin-left: 0;
+		margin-right: 0;
+		width: 80%;
+		margin-top: 3%;
+	}
+}
+
 @media screen and (max-width: 760px) {
 	.places {
 		height: 80vh;
