@@ -53,7 +53,7 @@ span {
 #pic {
 	height: 700px;
 	width: 100%;
-	background-image: url("./images/largepic.png");
+	background-image: url(../images/largepic.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: 1.8% 0 2%;
@@ -61,15 +61,15 @@ span {
 	
 }
 #p2 {
-	background-image: url(./images/options1@2x.png);
+	background-image: url(../images/options1@2x.png);
 	background-size: cover;
 }
 #p3 {
-	background-image: url(./images/pic3@2x.png);
+	background-image: url(../images/pic3@2x.png);
 	background-size: cover;
 }
 #p4 {
-	background-image: url(./images/pic4@2x.png);
+	background-image: url(../images/pic4@2x.png);
 	background-size: cover;
 }
 .smallpic {
@@ -90,25 +90,25 @@ span {
 
 #p5 {
 	grid-row: 1 / span 2;
-	background-image: url(./images/p5@2x.png);
+	background-image: url(../images/p5@2x.png);
 	background-size: cover;
 }
 
 #p6 {
-	background-image: url(./images/p6@2x.png);
+	background-image: url(../images/p6@2x.png);
 	background-size: cover;
 
 }
 #p7 {
-	background-image: url(./images/p7@2x.png);
+	background-image: url(../images/p7@2x.png);
 	background-size: cover;
 }
 #p8 {
-	background-image: url(./images/p8@2x.png);
+	background-image: url(../images/p8@2x.png);
 	background-size: cover;
 }
 #p9 {
-	background-image: url(./images/p9@2x.png);
+	background-image: url(../images/p9@2x.png);
 	background-size: cover;
 }
 .finalpics {
@@ -127,7 +127,7 @@ button {
 	color: black;
 }
 .footer {
-	background-image: url(./images/footer.png);
+	background-image: url(../images/footer.png);
 	background-size: cover;
 	height: 20px;
 	width: 150px;
